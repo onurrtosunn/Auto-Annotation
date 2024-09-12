@@ -11,7 +11,7 @@ OUTPUT_IMAGES = "output_images/"
 OUTPUT_LABELS = "output_labels/"
 label_list = open("obj.names").read().strip().split("\n")
 weight_path = "yolov4.weights"
-config_path = "yolov4.cfg"
+config_path = "/path/to/yolov4.cfg"
 
 
 def convert_pascal_to_yolo(size, box):
